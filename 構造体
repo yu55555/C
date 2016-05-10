@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+/*
+int playerHP  = 15;
+int playerAttack = 2;
+
+int enemyHP = 3;
+int enrmyAttack = 2;
+*/
+typedef struct {
+	  int HP;
+	  int sttack;
+}CHARACTER;
+CHARACTER playar = {15,2};
+CHARACTER enemy = {3,2};
+
+ void main(){
+	  printf("HP:%d\n", playar.HP);
+	  _getch();
+
+ }
